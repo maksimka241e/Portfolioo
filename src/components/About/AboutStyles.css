@@ -1,0 +1,108 @@
+.About{
+    display: flex;
+    padding-top: 100px;
+    min-height: 550px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #f3f3f3;
+}
+.About__title{
+    font-size: 70px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #272657;
+    border-bottom:3px solid #272657;
+    text-align: center;
+}
+.About__item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 30px;
+    justify-content: center;
+}
+.About__item__block{
+    width:45%;
+    border:3px solid #272657;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+-moz-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+}
+.About__item__block1{
+    width: 45%;
+    border:3px solid #272657;
+    border-radius: 8px;
+    -webkit-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+-moz-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+}
+.About__item__block2{
+    width: 90%;
+    border:3px solid #272657;
+    border-radius: 8px;
+    transition: all 0.5ms;
+    background-size:300% 300%;
+    background-image: linear-gradient(-45deg, #3788e5, #272657, #3788e5 1%, #272657, #3788e5, #272657, 25%, #3788e5, #272657, #3788e5 51%, #272657, #3788e5, #272657);
+    animation: backgroundImage 15s ease infinite;
+    -webkit-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+-moz-box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+box-shadow: -1px -12px 100px 1px rgba(39, 38, 87, 0.56);
+}
+.About__item__block__text{
+    font-size: 24px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.anim{
+    color: #fcfdfff9;
+}
+@keyframes backgroundImage {
+    0%{
+        background-position: 0% 10%;
+    }
+    50%{
+        background-position: 100% 10%;
+    }
+    100%{
+        background-position: 0% 10%;
+    }
+}
+
+@media(max-width:1200px){
+    .About__item__block__text{
+        font-size: 20px;
+        padding: 0px 5px;
+    }
+}
+@media(max-width:768px){
+    .About__item__block{
+        width:99%;
+    }
+    .About__item__block1{
+        width:99%;
+    }
+    .About__item__block2 {
+        width: 98%;
+    }
+}
+@media(max-width:478px){
+    .About__item__block__text{
+        font-size: 17px;
+    }
+}
+@media(max-width:300px){
+    .About__item__block__text{
+        font-size: 15px;
+    }
+    .About__title{
+        font-size: 50px;
+    }
+}
