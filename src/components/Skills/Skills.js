@@ -2,7 +2,7 @@ import { SkillsIcons } from './data'
 import './SkillsStyles.css'
 export function Skills() {
   return (
-    <div className='Skills'>
+    <div className='Skills' id='Skills'>
       <h2 className='Skills__title'>Skills</h2>
       <article className='Skills__item'>
         {SkillsIcons.map((item) => (

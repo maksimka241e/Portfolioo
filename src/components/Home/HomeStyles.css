@@ -95,6 +95,8 @@
 @media(max-width:640px){
     .Home__main__article__title{
         font-size: 44px;
+        line-height: 40px;
+        border-bottom:none;
     }
     .Home__main__article1 {
         width: 96%;

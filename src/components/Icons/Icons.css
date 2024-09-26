@@ -1,0 +1,35 @@
+.Icons{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    gap: 3px;
+    margin-left: 10px;
+    bottom: 0;    
+    animation: animeIc 2s ease-out infinite;
+    animation-iteration-count: 1;
+}
+
+.Icons__item1__img{
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    transition: 0.4s;
+}
+.Icons__item1__img:hover{
+    transition: 0.4s;
+    transform: scale(1.06);
+}
+@keyframes animeIc {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+
+}

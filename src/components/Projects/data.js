@@ -14,13 +14,6 @@ export const DataProjects = [
     skills: 'Стек: HTML, CSS, JS',
   },
   {
-    title: 'Ink. House',
-    url: 'https://maksimka241e.github.io/House/build/index.html',
-    img: 'https://i.postimg.cc/yY4Rs1ww/2024-09-16-23-18-39.png',
-    text: 'Адаптивный сайт картин с корзиной "Ink. House"',
-    skills: 'Стек: HTML, CSS, JS',
-  },
-  {
     title: 'POSH',
     url: 'https://maksimka241e.github.io/auto-parts/build/',
     img: 'https://i.postimg.cc/63hQKKnN/2024-09-16-23-27-09.png',
@@ -63,3 +56,11 @@ export const DataProjects = [
     skills: 'Стек: HTML, CSS, React, Redux, ESLint, Prettier, Supabase',
   },
 ]
+
+// {
+//   title: 'Ink. House',
+//   url: 'https://maksimka241e.github.io/House/build/index.html',
+//   img: 'https://i.postimg.cc/yY4Rs1ww/2024-09-16-23-18-39.png',
+//   text: 'Адаптивный сайт картин с корзиной "Ink. House"',
+//   skills: 'Стек: HTML, CSS, JS',
+// }

@@ -1,7 +1,7 @@
 import './HomeStyles.css'
-export function HomeMain({ item }) {
+export function HomeMain() {
   return (
-    <main className='Home__main' ref={item}>
+    <main className='Home__main' id='Home'>
       <article className='Home__main__article'>
         <img src='https://i.postimg.cc/fbbFrJWZ/img.jpg' className='Home__main__article__img' alt='ImagePeople' />
       </article>

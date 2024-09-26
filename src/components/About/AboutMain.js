@@ -1,8 +1,8 @@
+import { useEffect, useRef } from 'react'
 import './AboutStyles.css'
-
-export function About({ item }) {
+export function About() {
   return (
-    <div className='About' ref={item} id='AboutBlock'>
+    <div className='About' id='About'>
       <h2 className='About__title'>Обо мне</h2>
       <article className='About__item'>
         <div className='About__item__block'>
