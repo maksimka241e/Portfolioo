@@ -33,3 +33,9 @@
     }
 
 }
+@media(max-width:768px){
+    .Icons__item1__img{
+        width: 45px;
+        height: 45px;
+    }
+}
